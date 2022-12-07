@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html {
+        background: url(https://cos.mbrjun.cn/IMGS/2020/09/11/bg.png) center center no-repeat no-repeat fixed #6A6B6F;
+        background-size: cover;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        /* list-style: none; */
+        list-style-type: none;
+    }
+
+    html {
+        /* filter: grayscale(1); */
+    }
+
+    body {
+        height: 100vh;
+        /* background-color: rgb(77, 75, 73); */
+    }
+
+    .main {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .class1 {
+        display: flex;
+        flex: 1.5;
+    }
+
+    .class2 {
+        display: flex;
+        flex: 15;
+    }
+
+    .class3 {
+        display: flex;
+        flex: 2;
+    }
+
+    .class1-1,
+    .class1-3,
+    .class2-1,
+    .class2-3,
+    .class3-1,
+    .class3-3 {
+        flex: 2;
+        /* background: #555; */
+    }
+
+    .class1-2 {
+        display: flex;
+    }
+
+    .class1-2 a {
+        width: 40px;
+        border-radius: 10px;
+        height: 30px;
+        color: brown;
+        background-color: bisque;
+        border: 1px solid #ccc;
+        text-align: center;
+        margin-top: 20px;
+        flex: 1;
+    }
+
+    /* a:hover {
+
+        border-radius: 10px;
+        background-color: #66CCFF;
+        background-image: linear-gradient(180deg, #7ef3c9, #66ccff);
+        color: rgb(0, 0, 0);
+        transition: 1s;
+    } */
+
+    .class1-2,
+    .class2-2,
+    .class3-2 {
+        flex: 10;
+        /* background: #ff5; */
+    }
+
+    .yinYing {
+        box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+            rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 2px 4px 0px;
+    }
+
+    .class3-2 {
+        background-image: url(img/3-3bg.gif);
+        /* background-color: rgb(51, 51, 51); */
+        color: rgb(169, 169, 169);
+        position: relative;
+    }
+
+    .class3-2 :nth-child(1) {
+        margin-top: 30px;
+    }
+
+    .class3-2 div {
+        position: absolute;
+        right: 100px;
+        top: 0px;
+    }
+
+    .class1-3 a button {
+        width: 150px;
+        height: 20px;
+        text-align: center;
+        background-color: #FFF;
+        font-size: 18px;
+        margin: 0 0 5px 0;
+        border-radius: 100px;
+        font-size: 14px;
+        font-family: "Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB";
+
+        color: #7e6a6a;
+
+    }
+
+    .class1-3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .class1-3 a :nth-child(1) {
+        flex: 1;
+        margin-left: 30px;
+    }
+
+    .class1-3 a :nth-child(2) {
+        flex: 1;
+        margin-left: 30px;
+
+    }
+
+
+    @media (max-width: 700px) {
+        .class1 {
+            display: flex;
+            flex: 1;
+        }
+
+        .class2 {
+            display: flex;
+            flex: 15;
+        }
+
+        .class3 {
+            display: flex;
+            flex: 2;
+        }
+
+        .class1-1,
+        .class1-3,
+        .class2-1,
+        .class2-3,
+        .class3-1,
+        .class3-3 {
+            flex: 1;
+            /* background: #555; */
+        }
+
+        .class1-2,
+        .class2-2,
+        .class3-2 {
+            flex: 15;
+            /* background: rgb(255, 255, 255); */
+        }
+
+    }
+</style>
+
+<body>
+    <div class="main">
+        <div class="class1">
+            <div class="class1-1">网页logo<h3>旅游网</h3>
+                <img src="http://18895330.s21i.faiusr.com/4/1/ABUIABAEGAAg2pGGlQYoorLt7gEwkAM4ZQ!300x300.png.webp"
+                    alt="" width="200px">
+            </div>
+            <div class="class1-2">
+                <a href="main.html" target="content">主页</a>
+                <a href="1.html" target="content">页面1</a>
+                <a href="2.html" target="content">页面2</a>
+                <a href="3/index.html" target="content">页面3</a>
+                <a href="4.html" target="content">页面4</a>
+                <a href="5.html" target="content">页面5</a>
+                <a href="3/information.html" target="content">页面6</a>
+                <a href="10/10.html" target="content">页面7</a>
+                <a href="8.html" target="content">页面8</a>
+                <a href="9.html" target="content">页面9</a>
+                <a href="2/index.html" target="content">页面10</a>
+                <a href="3/about.html" target="content">页面11</a>
+            </div>
+            <div class="class1-3">
+                <a href="login.html" target="content">
+                    <button>登录</button>
+                </a>
+                <a href="signup.html" target="content">
+                    <button>注册</button>
+                </a>
+            </div>
+        </div>
+        <div class="class2">
+            <div class="class2-1">4</div>
+            <div class="class2-2 yinYing">
+                <iframe src="main.html" frameborder="0" width="100%" height="100%" name="content">
+
+                </iframe>
+            </div>
+            <div class="class2-3">6
+
+            </div>
+        </div>
+        <div class="class3">
+            <div class="class3-1">7</div>
+            <div class="class3-2">
+
+                <p align="center">底部版权页 &copy;© 2022－2023 example.com, all rights reserved</p>
+                <div>联系方式
+                    <img src="img/phone.png" alt="">
+                    <P>400-000-9999</P>
+                </div>
+            </div>
+            <div class="class3-3">9</div>
+        </div>
+    </div>
+</body>
+
+</html>
